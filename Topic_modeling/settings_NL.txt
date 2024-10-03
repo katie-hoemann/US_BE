@@ -1,0 +1,13 @@
+Data: 
+- corrected files
+- split by sentence
+- outliers removed
+- lemmatized
+
+Input: .csv spreadsheet (TextID + Segment as row identifiers; lemmas as column containing text)
+Output: file path
+Conversion list: replace with version from 26 July 24
+Stop list: replace with version from 26 July 24
+Token handling options: uncheck "use automated/algorithmic lemmatization"; check "save a copy of MEH-modified texts"
+N-gram settings: ignore documents with word count <15, retain n-grams that appear in >= 0.5% of documents
+

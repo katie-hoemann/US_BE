@@ -1,0 +1,12 @@
+Data: 
+- corrected files
+- split by sentence
+- outliers removed
+- lemmatized
+
+Input: .csv spreadsheet (TextID + Segment as row identifiers; lemmas as column containing text)
+Output: file path
+Conversion list: replace with version from 25 August 23
+Stop list: replace with version from 17 May 24
+Token handling options: check "save a copy of MEH-modified texts"
+
